@@ -1,0 +1,130 @@
+text,type,category
+Spent 1200 on groceries at Carrefour,expense,Groceries
+Imtiaz se 3500 ka ration liya,expense,Groceries
+bought milk and eggs for 450,expense,Groceries
+"Naheed supermarket 6,800",expense,Groceries
+sabzi 600,expense,Groceries
+monthly ration from Metro 14500,expense,Groceries
+paid 320 for bread and doodh,expense,Groceries
+fruit from the thela 500 rupees,expense,Groceries
+"Al-Fatah grocery 2,250",expense,Groceries
+atta and chawal 3200,expense,Groceries
+lunch at KFC 1450,expense,Food & Dining
+biryani 650,expense,Food & Dining
+"foodpanda order 1,890",expense,Food & Dining
+dinner with friends at Kolachi 7000,expense,Food & Dining
+chai and paratha 180,expense,Food & Dining
+McDonalds 1100 yesterday,expense,Food & Dining
+pizza 2400 at Broadway,expense,Food & Dining
+coffee at Gloria Jeans 850,expense,Food & Dining
+office lunch 500,expense,Food & Dining
+shawarma 350,expense,Food & Dining
+Careem ride 650,expense,Transport
+uber to university 420,expense,Transport
+rickshaw 200,expense,Transport
+InDrive to airport 1500,expense,Transport
+bus fare 80,expense,Transport
+Bykea 230,expense,Transport
+metro bus card recharge 500,expense,Transport
+qingqi 60,expense,Transport
+"train ticket to Lahore 2,800",expense,Transport
+parking 100,expense,Transport
+petrol 5000,expense,Fuel
+"filled petrol at PSO 4,500",expense,Fuel
+Shell fuel 3000,expense,Fuel
+bike mein petrol dalwaya 1200,expense,Fuel
+diesel 8000,expense,Fuel
+"CNG 1,100",expense,Fuel
+Total Parco petrol 2500,expense,Fuel
+fuel for car 6000,expense,Fuel
+"electricity bill 9,800",expense,Utilities
+K-Electric bill paid 12000,expense,Utilities
+gas bill 2300,expense,Utilities
+"Sui gas 1,850",expense,Utilities
+water bill 900,expense,Utilities
+LESCO bill 7600,expense,Utilities
+bijli ka bill 5400,expense,Utilities
+water tanker 3500,expense,Utilities
+Jazz load 500,expense,Mobile & Internet
+"Zong package 1,200",expense,Mobile & Internet
+"internet bill 3,500",expense,Mobile & Internet
+PTCL bill 2800,expense,Mobile & Internet
+mobile balance 300,expense,Mobile & Internet
+Telenor recharge 250,expense,Mobile & Internet
+"StormFiber 4,000",expense,Mobile & Internet
+Ufone bundle 600,expense,Mobile & Internet
+"Daraz order 2,999",expense,Shopping
+bought shoes 4500,expense,Shopping
+"Khaadi kurta 3,800",expense,Shopping
+clothes from Sapphire 6500,expense,Shopping
+new headphones 5000,expense,Shopping
+"Gul Ahmed lawn suit 4,200",expense,Shopping
+watch 3000 from the mall,expense,Shopping
+gift for ammi 2000,expense,Shopping
+medicine 850,expense,Health
+doctor fee 2000,expense,Health
+"pharmacy 1,250",expense,Health
+lab test at Chughtai 3500,expense,Health
+dentist 5000,expense,Health
+dawai 600,expense,Health
+gym membership 4000,expense,Health
+eye checkup 1500,expense,Health
+university fee 85000,expense,Education
+"books 2,400",expense,Education
+tuition fee 6000,expense,Education
+"Coursera subscription 3,500",expense,Education
+stationery 700,expense,Education
+school fee for bhai 12000,expense,Education
+exam fee 2500,expense,Education
+Udemy course 2200,expense,Education
+"Netflix 1,100",expense,Entertainment
+cinema tickets 2400,expense,Entertainment
+Spotify 299,expense,Entertainment
+movie at Cinepax 1800,expense,Entertainment
+PS5 game 9000,expense,Entertainment
+cricket match tickets 1500,expense,Entertainment
+bowling with friends 2000,expense,Entertainment
+YouTube premium 479,expense,Entertainment
+rent 35000,expense,Rent
+"house rent paid 45,000",expense,Rent
+kiraya 30000,expense,Rent
+hostel rent 18000,expense,Rent
+room rent for October 25000,expense,Rent
+paid landlord 40000,expense,Rent
+zakat 10000,expense,Charity
+sadqa 500,expense,Charity
+donation to Edhi 2000,expense,Charity
+gave 1000 to Saylani,expense,Charity
+khairat 300,expense,Charity
+masjid donation 1000,expense,Charity
+Shaukat Khanum donation 5000,expense,Charity
+fitrana 1200,expense,Charity
+sent 5000 to ammi via JazzCash,expense,Transfers
+transferred 10000 to brother,expense,Transfers
+committee payment 5000,expense,Transfers
+Easypaisa transfer 2500 to Ali,expense,Transfers
+sent money home 20000,expense,Transfers
+IBFT 15000 to savings account,expense,Transfers
+received salary 150000,income,Salary
+"salary credited 120,000",income,Salary
+tankhwah mili 90000,income,Salary
+monthly pay 110000,income,Salary
+salary from company 135000,income,Salary
+bonus 25000,income,Salary
+got paid 400 dollars on Upwork,income,Freelance
+Fiverr payment 35000,income,Freelance
+freelance project payment 60000,income,Freelance
+client paid 50000 for website,income,Freelance
+received 300 USD from client,income,Freelance
+Payoneer withdrawal 80000,income,Freelance
+received 5000 from abbu,income,Transfers
+ammi ne 3000 bheje,income,Transfers
+JazzCash received 2000,income,Transfers
+friend returned 1500,income,Transfers
+barber 400,expense,Other
+haircut 600,expense,Other
+laundry 800,expense,Other
+car wash 500,expense,Other
+maid salary 8000,expense,Other
+cobbler 150,expense,Other
+tailor 1500,expense,Other

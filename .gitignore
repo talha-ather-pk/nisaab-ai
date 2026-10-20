@@ -1,0 +1,25 @@
+# Python
+backend/.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Flutter
+mobile/.dart_tool/
+mobile/build/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/pubspec.lock
+mobile/**/Pods/
+mobile/android/.gradle/
+mobile/android/local.properties
+
+# IDE
+.idea/
+.vscode/
+
+# Research data: pilot exports, annotation sheets and the frozen gold set (participant text)
+backend/eval/pilot/
+backend/eval/report.md
+*.iml
