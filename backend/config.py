@@ -21,6 +21,7 @@ class Settings(BaseSettings):
     database_url: str = "postgresql+psycopg://nisaab:nisaab@localhost:5432/nisaab"
     db_pool_size: int = 5
     db_max_overflow: int = 10
+    db_null_pool: bool = False  # true on serverless hosts (Vercel): no pool, one connection per request
     db_echo: bool = False
 
     # Auth

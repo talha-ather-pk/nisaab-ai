@@ -23,3 +23,10 @@ mobile/android/local.properties
 backend/eval/pilot/
 backend/eval/report.md
 *.iml
+
+# Vercel: Flutter web build copied for deployment, and local project link
+public/
+.vercel/
+
+.vercel
+.env*

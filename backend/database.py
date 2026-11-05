@@ -7,6 +7,7 @@ from collections.abc import Iterator
 from sqlalchemy import create_engine, event
 from sqlalchemy.engine import Engine
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
+from sqlalchemy.pool import NullPool
 
 from config import get_settings
 
@@ -27,6 +28,12 @@ def build_engine(url: str | None = None) -> Engine:
             dbapi_conn.execute("PRAGMA foreign_keys=ON")
 
         return engine
+
+    if settings.db_null_pool:
+        # Serverless (Vercel): each invocation may run in a fresh instance, so keeping a pool open
+        # only leaks connections. Connect per request and let the provider's pooler (Neon) pool.
+        return create_engine(url, poolclass=NullPool, echo=settings.db_echo,
+                             connect_args={"connect_timeout": 10, "application_name": "nisaab-api"})
 
     return create_engine(
         url,

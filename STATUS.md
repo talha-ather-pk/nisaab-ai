@@ -9,6 +9,10 @@
 - **Deadline:** submission on Tuesday (stated 2026-10-18).
 - **Stack (decided):** Flutter + Riverpod + Dio · FastAPI + SQLAlchemy 2 + psycopg 3 · PostgreSQL 17 · JWT/bcrypt · Claude (`claude-opus-5-5`) for the assistant, with a rule-engine fallback · Docker Compose.
 
+## Live: https://nisaab-ai.vercel.app (deployed 2026-11-05)
+
+Vercel project `nisaab-ai` in team **yadgar-labs**, API function in `sin1`, Neon Postgres `nisaab-db` (Singapore, free plan, schema `2026.10.003`, demo seeded). Code: https://github.com/talha-ather-pk/nisaab-ai (private). Redeploy steps are in the README under "Live deployment". The Flutter SDK is not installed on this machine any more (the old scratchpad copy was cleaned up), so the next app change needs Flutter installed before `flutter build web`.
+
 ## Current state: v1.0 feature-complete
 
 | Area | Status | Verified |

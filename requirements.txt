@@ -1,0 +1,10 @@
+# Runtime dependencies for the Vercel function (api/index.py). Keep in step with backend/requirements.txt.
+fastapi>=0.115
+pydantic[email]>=2.7
+pydantic-settings>=2.4
+sqlalchemy>=2.0.30
+psycopg[binary]>=3.2
+pyjwt>=2.9
+bcrypt>=4.2
+anthropic>=1.0
+tzdata>=2024.1

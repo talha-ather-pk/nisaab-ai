@@ -65,6 +65,27 @@ Edit `.env` and set at least:
 
 ---
 
+## Live deployment (Vercel + Neon)
+
+**https://nisaab-ai.vercel.app**: the Flutter web app and the API on one origin (`/health`, `/docs`, `/api/v1/...`).
+
+| Piece | Where |
+|---|---|
+| Web app | `public/`, a copy of `mobile/build/web`, served as static files (Vercel can't build Flutter) |
+| API | `api/index.py`: the FastAPI app as one Python function, region `sin1` (Singapore) |
+| Database | Neon Postgres `nisaab-db`, Singapore, connected to the Vercel project (sets `DATABASE_URL`) |
+| Settings | Vercel env: `JWT_SECRET`, `DB_NULL_POOL=true` (no pool on serverless), `ASSISTANT_PROVIDER=rules`, `ENVIRONMENT=production` |
+
+Redeploy after changing the app:
+
+```powershell
+cd mobile; flutter build web --release; cd ..
+Remove-Item -Recurse -Force public; Copy-Item -Recurse mobile\build\web public
+vercel deploy --prod
+```
+
+Schema changes: pull the production env (`vercel env pull <file outside the repo> --environment production`), set `DATABASE_URL` to its `DATABASE_URL_UNPOOLED`, and run `python backend/init_db.py`. It's idempotent; add `--seed` only for an empty database. To turn on Claude, add `ANTHROPIC_API_KEY` in Vercel and set `ASSISTANT_PROVIDER=auto`.
+
 ## 2A. Run everything with Docker (recommended)
 
 ```powershell

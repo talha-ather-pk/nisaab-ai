@@ -1,0 +1,16 @@
+# Upload only what the deployment needs. `public/` is the Flutter web build (copied from mobile/build/web).
+/*
+!api
+!backend
+!database
+!public
+!requirements.txt
+!.python-version
+!vercel.json
+
+backend/.venv
+backend/tests
+backend/eval/pilot
+backend/.pytest_cache
+backend/.env
+**/__pycache__
